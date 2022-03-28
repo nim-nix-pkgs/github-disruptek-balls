@@ -533,380 +533,2488 @@
       "version": "1_1_9"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.3",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.3",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_3"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.3"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.4",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.4",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_4"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.4"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.5",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.5",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_5"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.5"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.6",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.6",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_6"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.6"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.0.7",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.0.7",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_0_7"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.0.7"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.1.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.1.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_1_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/xmonader/nim-terminaltables",
+          "str": "#37981f5d403fb55688e00d24ab9b1d56e252f52b",
+          "ver": {
+            "kind": "verSpecial",
+            "spe": "#37981f5d403fb55688e00d24ab9b1d56e252f52b"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.1.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.2.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.2.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_2_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/xmonader/nim-terminaltables",
+          "str": "#37981f5d403fb55688e00d24ab9b1d56e252f52b",
+          "ver": {
+            "kind": "verSpecial",
+            "spe": "#37981f5d403fb55688e00d24ab9b1d56e252f52b"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.2.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.2.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.2.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_2_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.3.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.3.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.2.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.3.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.3.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_3_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.3.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.3.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.3.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_3_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.3.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.3",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.3",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_3"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.3"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.4",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.4",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_4"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.4"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.5",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.4.5",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_4_5"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.4.5"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.5.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.5.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_5_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.5.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.5.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.5.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_5_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.5.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.5.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.5.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_5_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.5.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.5.3",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.5.3",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_5_3"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.5.3"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.5.4",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.5.4",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_5_4"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.5.4"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.6.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.6.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_6_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.6.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.6.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.6.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_6_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.6.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.6.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.6.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_6_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.6.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.7.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/2.7.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "2_7_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/2.7.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.0.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.0.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_0_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.0.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.0.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.0.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_0_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.0.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.1.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.1.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_1_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.1.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.2.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.2.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_2_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.2.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.2.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.2.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_2_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.2.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.3",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.3",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_3"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/semaphores",
+          "str": ">= 0.0.4 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.0.4"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.3"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.4",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.4",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_4"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/semaphores",
+          "str": ">= 0.0.4 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.0.4"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.4"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.5",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.5",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_5"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/semaphores",
+          "str": ">= 0.0.4 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.0.4"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.5"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.6",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.6",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_6"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/semaphores",
+          "str": ">= 0.0.4 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.0.4"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.6"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.3.7",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.3.7",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_3_7"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/semaphores",
+          "str": ">= 0.0.4 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.0.4"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.3.7"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.4.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.4.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_4_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.4.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.4.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.4.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_4_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.4.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.4.2",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.4.2",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_4_2"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.4.2"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.5.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.5.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_5_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.5.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.5.1",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.5.1",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_5_1"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.5.1"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.6.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/3.6.0",
-      "url": "https://github.com/disruptek/balls",
-      "version": "3_6_0"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/3.6.0"
     },
     {
       "name": "balls",
@@ -973,12 +3081,53 @@
       "ref": "refs/tags/3.7.0"
     },
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "2.4.5",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/tags/rc",
-      "url": "https://github.com/disruptek/balls",
-      "version": "rc"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/rc"
     }
   ],
   "url": "https://github.com/disruptek/balls",
@@ -1103,12 +3252,68 @@
   ],
   "heads": [
     {
-      "description": "a unittest framework with balls 🔴🟡🟢",
+      "name": "balls",
+      "version": "3.7.0",
+      "author": "disruptek",
+      "desc": "a unittest framework with balls 🔴🟡🟢",
       "license": "MIT",
-      "name": "github-disruptek-balls",
-      "ref": "refs/heads/master",
-      "url": "https://github.com/disruptek/balls",
-      "version": "master"
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "https://github.com/disruptek/grok",
+          "str": ">= 0.5.0 & < 1.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "0.5.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "1.0.0"
+            }
+          }
+        },
+        {
+          "name": "https://github.com/disruptek/ups",
+          "str": "< 1.0.0",
+          "ver": {
+            "kind": "verEarlier",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "https://github.com/planetis-m/sync",
+          "str": ">= 1.0.0 & < 2.0.0",
+          "ver": {
+            "kind": "verIntersect",
+            "verILeft": {
+              "kind": "verEqLater",
+              "ver": "1.0.0"
+            },
+            "verIRight": {
+              "kind": "verEarlier",
+              "ver": "2.0.0"
+            }
+          }
+        }
+      ],
+      "bin": [
+        "balls"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
     }
   ]
 }
