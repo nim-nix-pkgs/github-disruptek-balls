@@ -29,13 +29,13 @@
   inputs."github-disruptek-ups".inputs.nixpkgs.follows = "nixpkgs";
   inputs."github-disruptek-ups".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github.com/disruptek/semaphores".owner = "nim-nix-pkgs";
-  inputs."github.com/disruptek/semaphores".ref   = "master";
-  inputs."github.com/disruptek/semaphores".repo  = "github.com/disruptek/semaphores";
-  inputs."github.com/disruptek/semaphores".dir   = "";
-  inputs."github.com/disruptek/semaphores".type  = "github";
-  inputs."github.com/disruptek/semaphores".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/disruptek/semaphores".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-disruptek-semaphores".owner = "nim-nix-pkgs";
+  inputs."github-disruptek-semaphores".ref   = "master";
+  inputs."github-disruptek-semaphores".repo  = "github-disruptek-semaphores";
+  inputs."github-disruptek-semaphores".dir   = "0_0_4";
+  inputs."github-disruptek-semaphores".type  = "github";
+  inputs."github-disruptek-semaphores".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-disruptek-semaphores".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
