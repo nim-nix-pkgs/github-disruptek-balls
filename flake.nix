@@ -919,13 +919,13 @@
   inputs."github-disruptek-balls-3_6_0".inputs.nixpkgs.follows = "nixpkgs";
   inputs."github-disruptek-balls-3_6_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-disruptek-balls-3_7_0".dir   = "3_7_0";
-  inputs."github-disruptek-balls-3_7_0".owner = "nim-nix-pkgs";
-  inputs."github-disruptek-balls-3_7_0".ref   = "master";
-  inputs."github-disruptek-balls-3_7_0".repo  = "github-disruptek-balls";
-  inputs."github-disruptek-balls-3_7_0".type  = "github";
-  inputs."github-disruptek-balls-3_7_0".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-disruptek-balls-3_7_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."balls-3_7_0".dir   = "3_7_0";
+  inputs."balls-3_7_0".owner = "nim-nix-pkgs";
+  inputs."balls-3_7_0".ref   = "master";
+  inputs."balls-3_7_0".repo  = "balls";
+  inputs."balls-3_7_0".type  = "github";
+  inputs."balls-3_7_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."balls-3_7_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."github-disruptek-balls-rc".dir   = "rc";
   inputs."github-disruptek-balls-rc".owner = "nim-nix-pkgs";
