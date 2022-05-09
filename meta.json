@@ -6,7 +6,7 @@
   "tags": [],
   "url": "https://github.com/disruptek/balls",
   "refs": [
-    "fatal: unable to access 'https://github.com/disruptek/balls/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/disruptek/balls/': Failed to connect to github.com port 443 after 129171 ms: Connection timed out",
     ""
   ],
   "heads": []
