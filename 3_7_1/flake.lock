@@ -125,22 +125,23 @@
         "github-disruptek-grok": "github-disruptek-grok",
         "github-disruptek-ups": "github-disruptek-ups",
         "nixpkgs": "nixpkgs",
-        "src-balls-rc": "src-balls-rc"
+        "src-balls-3_7_1": "src-balls-3_7_1",
+        "sync": "sync"
       }
     },
-    "src-balls-rc": {
+    "src-balls-3_7_1": {
       "flake": false,
       "locked": {
-        "lastModified": 1612115639,
-        "narHash": "sha256-mAW/oW2yg9rM5XKcKbzmhUnJ2Ze8APiUQNIATbhxANs=",
+        "lastModified": 1661965203,
+        "narHash": "sha256-CD8ul30Ts8WYcPjJdhC3g3UkPLUFQnKltwHDkR7/5Cc=",
         "owner": "disruptek",
         "repo": "balls",
-        "rev": "3b7b73c99bad185a836e0c37f41cc119694cc5da",
+        "rev": "b69c6d385523505b19fbc1efd751cd20faa6fbcc",
         "type": "github"
       },
       "original": {
         "owner": "disruptek",
-        "ref": "refs/tags/rc",
+        "ref": "refs/tags/3.7.1",
         "repo": "balls",
         "type": "github"
       }
@@ -179,6 +180,23 @@
         "type": "github"
       }
     },
+    "src-sync-v1_5_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1639158019,
+        "narHash": "sha256-zX0z3bkuJmuf+BXJWejHLLX/SHV6pkrKe0d48GY5vjs=",
+        "owner": "planetis-m",
+        "repo": "sync",
+        "rev": "9b8c2926286377aeca0cc41cd313eaf140ecea64",
+        "type": "github"
+      },
+      "original": {
+        "owner": "planetis-m",
+        "ref": "refs/tags/v1.5.0",
+        "repo": "sync",
+        "type": "github"
+      }
+    },
     "src-ups-0_0_7": {
       "flake": false,
       "locked": {
@@ -193,6 +211,33 @@
         "owner": "disruptek",
         "ref": "refs/tags/0.0.7",
         "repo": "ups",
+        "type": "github"
+      }
+    },
+    "sync": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-sync-v1_5_0": "src-sync-v1_5_0"
+      },
+      "locked": {
+        "dir": "v1_5_0",
+        "lastModified": 1662245597,
+        "narHash": "sha256-YDOamaEMmFN30iS6iGMLaKXkjwUuf8uwRl3k3psPj2Y=",
+        "owner": "nim-nix-pkgs",
+        "repo": "sync",
+        "rev": "32c16f8360559bf7fd830a1c380aab87cf77deb1",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v1_5_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "sync",
         "type": "github"
       }
     }
